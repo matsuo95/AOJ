@@ -1,8 +1,9 @@
 #include <iostream>
+using namespace std;
 
 int main() {
 	int S;
-	std::cin >> S;
+	cin >> S;
 
 	int h, m, s;
 
@@ -10,6 +11,7 @@ int main() {
 	m = S % 3600 / 60;
 	s = S % 60;
 
-	std::cout << h << ":" << m << ":" << s << std::endl;
+	cout << h << ":" << m << ":" << s << endl;
+
 	return 0;
 }
